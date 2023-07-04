@@ -574,7 +574,7 @@ main .recent-orders a {
   aside {
     position: fixed;
     left: 0;
-    background: var(--color-danger);
+    background: var(--color-white);
     width: 18rem;
     z-index: 3;
     box-shadow: 1rem 3rem 4rem var(--color-light);
