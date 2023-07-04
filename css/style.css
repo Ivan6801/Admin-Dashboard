@@ -13,6 +13,7 @@
   --color-primary-variant: #111e88;
   --color-dark-variant: #677483;
   --color-background: #f6f6f9;
+  --color-text: #000;
 
   --card-border-radius: 2rem;
   --border-radius-1: 0.4rem;
@@ -23,6 +24,20 @@
   --padding-1: 1.2rem;
 
   --box-shadow: 0 2rem 3rem var(--color-light);
+}
+
+.dark-theme-variables {
+  --color-background: #181a1e;
+  --color-white: #202528;
+  --color-dark: #edeffd;
+  --color-dark-variant: #a3bdcc;
+  --color-light: rgba(0, 0, 0, 0.4);
+  --box-shadow: 0 2rem 3rem var(--color-light);
+  --color-text: #fff;
+}
+
+.text {
+  color: var(--color-text) !important;
 }
 
 * {
@@ -416,6 +431,7 @@ main .recent-orders a {
 }
 
 .right .theme-toggler span.active {
+  transition: 0.5s;
   background: var(--color-primary);
   color: white;
   border-radius: var(--border-radius-1);
